@@ -41,4 +41,4 @@ Comment.init(
     modelName: 'comment',
   }
 );
-module.exports = Comme
+module.exports = Comment
