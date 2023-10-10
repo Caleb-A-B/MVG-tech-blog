@@ -6,7 +6,7 @@ let sequelize;
 if (process.env.JAWSDB_url) {
     sequelize = new sequelize(process.env.JAWSDB_URL);
 } else {
-    sequelizelize = new Sequelize(
+    sequelize = new Sequelize(
         process.env.DB_NAME, 
         process.env.DB_USER,
         process.env.DB_PASSWORD,
